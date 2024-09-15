@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback Example</title>
+    <style>
+        body {
+            width: 90%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background: rgb(169,183,251);
+            background: radial-gradient(circle, rgba(169,183,251,1) 0%, rgba(157,252,240,1) 100%);
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .container{
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        #result {
+            width: fit-content;
+            height: fit-content;
+            /* display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center; */
+            background-color: #e6e6e640;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            /* border: 1px solid #808ef9; */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <h1>Callback Example</h1>
+    <button id="callbackButton">Click Me</button>
+    <!-- Here we show the result -->
+    <div class="container">
+    <div id="result"></div>
+    </div>
+    <script src="callbacks.js"></script>
+</body>
+</html>
